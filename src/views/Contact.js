@@ -35,11 +35,9 @@ function Contact(props) {
 
     setSent(true);
     setSubmitted(true);
-    console.log(submitted);
-    console.log(sent);
     axios({
       method: "POST",
-      url: "https://cryptic-waters-08431.herokuapp.com/",
+      url: "https://cryptic-waters-08431.herokuapp.com/send",
       data: {
         name: name,
         email: email,
@@ -68,6 +66,8 @@ function Contact(props) {
     setEmail("");
     setSubject("");
     setMessage("");
+    setSent(false);
+    setSubmitted(false);
   }
 
   function MessageSubmitted({ submitted, sent }) {
