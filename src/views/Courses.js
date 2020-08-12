@@ -26,10 +26,7 @@ const titles = [
 
 const courses = {
   thisFall: [
-    "CSCI 2951K Topics in 3D Computer Vision and Deep Learning",
-    "CSCI 1470 Deep Learning",
-    "APMA 1690 Computational Probability and Statistics",
-    "ENGN 1931J Social Impact of Emerging Technologies – The Role of Scientists and Engineers",
+    "To be determined...",
   ],
   computerScience: [
     "CSCI 1951A Data Science",

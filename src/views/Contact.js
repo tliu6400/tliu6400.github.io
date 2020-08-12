@@ -66,8 +66,6 @@ function Contact(props) {
     setEmail("");
     setSubject("");
     setMessage("");
-    setSent(false);
-    setSubmitted(false);
   }
 
   function MessageSubmitted({ submitted, sent }) {
@@ -75,11 +73,10 @@ function Contact(props) {
       return (
         <>
           <Row className="justify-content-around">
-            <Col md="8">
+            <Col md="12">
               <Notifications sent={sent}></Notifications>
             </Col>
           </Row>
-          ;
         </>
       );
     } else {
@@ -95,6 +92,7 @@ function Contact(props) {
             <h2 className="title">Contact</h2>
           </Row>
           <div>
+            <MessageSubmitted submitted={submitted} sent={sent}></MessageSubmitted>
             <Form onSubmit={(event) => handleSubmit(event)} method="POST">
               <Row className="justify-content-around">
                 <Col md="8">
@@ -170,9 +168,6 @@ function Contact(props) {
                   </Row>
                 </Col>
               </Row>
-              <MessageSubmitted
-                submitted={(submitted, sent)}
-              ></MessageSubmitted>
             </Form>
           </div>
         </Container>

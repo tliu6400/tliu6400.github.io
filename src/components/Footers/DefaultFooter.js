@@ -11,7 +11,7 @@ function DefaultFooter() {
     <>
       <footer className="footer footer-default">
         <Container>
-          <nav>
+          <nav className="justify-content-center">
             <ul>
               <li>
                 <a
@@ -34,7 +34,7 @@ function DefaultFooter() {
                   href="http://blog.creative-tim.com?ref=nukr-default-footer"
                   target="_blank"
                 >
-                  69 Brown Street, Box 2653, Providence, RI, 02912
+                  69 Brown St, Box 2653, Providence, RI, 02912
                 </a>
               </li>
             </ul>

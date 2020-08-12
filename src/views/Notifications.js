@@ -5,8 +5,8 @@ import { Alert, Container } from "reactstrap";
 
 // core components
 
-function Notifications({ sent }) {
-  const [success, setSuccess] = React.useState({ sent });
+function Notifications({sent}) {
+  const [success, setSuccess] = React.useState(sent);
   const [failure, setFailure] = React.useState(!{ sent });
   return (
     <>
