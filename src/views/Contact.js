@@ -6,9 +6,6 @@ import {
   Button,
   FormGroup,
   Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col,
@@ -23,9 +20,6 @@ function Contact(props) {
   const [email, setEmail] = React.useState("");
   const [subject, setSubject] = React.useState("");
   const [message, setMessage] = React.useState("");
-
-  const [leftFocus, setLeftFocus] = React.useState(false);
-  const [rightFocus, setRightFocus] = React.useState(false);
 
   const [submitted, setSubmitted] = React.useState(false);
   const [sent, setSent] = React.useState(false);
@@ -124,42 +118,24 @@ function Contact(props) {
                 <Col md="8">
                   <Row>
                     <Col md="6">
-                      <InputGroup
-                        className={leftFocus ? "input-group-focus" : ""}
-                      >
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="fa fa-user-circle"></i>
-                          </InputGroupText>
-                        </InputGroupAddon>
+                      <FormGroup>
                         <Input
                           placeholder="Name"
                           type="text"
                           value={name}
-                          onFocus={() => setLeftFocus(true)}
-                          onBlur={() => setLeftFocus(false)}
                           onChange={(event) => setName(event.target.value)}
                         ></Input>
-                      </InputGroup>
+                      </FormGroup>
                     </Col>
                     <Col md="6">
-                      <InputGroup
-                        className={rightFocus ? "input-group-focus" : ""}
-                      >
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="fa fa-inbox"></i>
-                          </InputGroupText>
-                        </InputGroupAddon>
+                      <FormGroup>
                         <Input
                           placeholder="Email"
                           type="text"
                           value={email}
-                          onFocus={() => setRightFocus(true)}
-                          onBlur={() => setRightFocus(false)}
                           onChange={(event) => setEmail(event.target.value)}
                         ></Input>
-                      </InputGroup>
+                      </FormGroup>
                     </Col>
                   </Row>
                   <Row>
