@@ -15,27 +15,16 @@ function DefaultFooter() {
             <ul>
               <li>
                 <a
-                  href="https://www.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
+                  href="mailto:tom_liu@brown.edu"
                 >
                   tom_liu@brown.edu
                 </a>
               </li>
               <li>
-                <a
-                  href="http://presentation.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
-                >
                   (858)-465-0783
-                </a>
               </li>
               <li>
-                <a
-                  href="http://blog.creative-tim.com?ref=nukr-default-footer"
-                  target="_blank"
-                >
                   69 Brown St, Box 2653, Providence, RI, 02912
-                </a>
               </li>
             </ul>
           </nav>
