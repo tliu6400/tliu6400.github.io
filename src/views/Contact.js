@@ -13,10 +13,10 @@ import {
   Row,
   Col,
   Form,
+  Alert,
 } from "reactstrap";
 
 // core components
-import Notifications from "./Notifications.js";
 
 function Contact(props) {
   const [name, setName] = React.useState("");
@@ -33,8 +33,6 @@ function Contact(props) {
   function handleSubmit(e) {
     e.preventDefault();
 
-    setSent(true);
-    setSubmitted(true);
     axios({
       method: "POST",
       url: "https://cryptic-waters-08431.herokuapp.com/send",
@@ -72,11 +70,36 @@ function Contact(props) {
     if (submitted) {
       return (
         <>
-          <Row className="justify-content-around">
-            <Col md="12">
-              <Notifications sent={sent}></Notifications>
-            </Col>
-          </Row>
+          <div className="section section-notifications">
+            <Alert color="success" isOpen={sent}>
+              <Container>
+                <strong>Success</strong> Your message sent successfully!
+                <button
+                  type="button"
+                  className="close"
+                  onClick={() => setSubmitted(false)}
+                >
+                  <span aria-hidden="true">
+                    <i className="now-ui-icons ui-1_simple-remove"></i>
+                  </span>
+                </button>
+              </Container>
+            </Alert>
+            <Alert color="danger" isOpen={!sent}>
+              <Container>
+                <strong>Error</strong> Your message failed to send!
+                <button
+                  type="button"
+                  className="close"
+                  onClick={() => setSubmitted(false)}
+                >
+                  <span aria-hidden="true">
+                    <i className="now-ui-icons ui-1_simple-remove"></i>
+                  </span>
+                </button>
+              </Container>
+            </Alert>
+          </div>
         </>
       );
     } else {
@@ -92,7 +115,10 @@ function Contact(props) {
             <h2 className="title">Contact</h2>
           </Row>
           <div>
-            <MessageSubmitted submitted={submitted} sent={sent}></MessageSubmitted>
+            <MessageSubmitted
+              submitted={submitted}
+              sent={sent}
+            ></MessageSubmitted>
             <Form onSubmit={(event) => handleSubmit(event)} method="POST">
               <Row className="justify-content-around">
                 <Col md="8">
