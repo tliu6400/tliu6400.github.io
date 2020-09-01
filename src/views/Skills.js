@@ -16,6 +16,8 @@ const programming = [
 ];
 const tools = [
   "Git",
+  "TensorFlow",
+  "OpenCV",
   "Numpy",
   "Pandas",
   "Sklearn",

@@ -8,14 +8,6 @@ import CardWrapper from "./CardWrapper.js";
 
 const experience = [
   {
-    name: "Qualcomm",
-    title: "Software Engineering Intern",
-    timeframe: "June 2020-Present",
-    content: "Software engineering intern for Qualcomm’s 5G Automation Development team in San Diego, USA. I work closely with team members to develop Python post-processing scenarios for an in-house software build testing framework. These scenarios allow test engineers to drastically reduce the time spent reviewing test case results from new software updates for 5G enabled devices. Aside from these post-processing tasks, I also work on improving the AngularJS user interface and REST APIs for an end-to-end automation web tool. This tool streamlines the process of submitting and testing software updates.",
-    skills: ["Python", "JavaScript", "AngularJS"],
-    image: require("../assets/img/qualcomm.png"),
-  },
-  {
     name: "Cabana Health",
     title: "Co-Founder, Product Constructor",
     timeframe: "March 2020-Present",
@@ -23,6 +15,14 @@ const experience = [
       "Technical co-founder and product constructor for Cabana Health, a health and wellness mobile app that allows users to centralize their health information and create goal-centered communities. To learn more about Cabana Health, visit our site at https://cabana.health. Cabana Health is one of the ventures which participated in Babson University's Summer Catalyst accelerator.",
     skills: ["Swift (SwiftUI)", "Firebase"],
     image: require("../assets/img/cabana.jpg"),
+  },
+  {
+    name: "Qualcomm",
+    title: "Software Engineering Intern",
+    timeframe: "June 2020-August 2020",
+    content: "Software engineering intern for Qualcomm’s 5G Automation Development team in San Diego, USA. I worked closely with team members to develop Python post-processing scenarios for an in-house software build testing framework. These scenarios allow test engineers to drastically reduce the time spent reviewing test case results from new software updates for 5G enabled devices. Aside from these post-processing tasks, I also worked on improving the AngularJS user interface and REST APIs for an end-to-end automation web tool. This tool streamlines the process of submitting and testing software updates.",
+    skills: ["Python", "JavaScript", "AngularJS"],
+    image: require("../assets/img/qualcomm.png"),
   },
   {
     name: "Brown University CS Department",
