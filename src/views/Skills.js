@@ -5,12 +5,12 @@ import { Container, Progress, Row, Col, Badge } from "reactstrap";
 
 // core components
 const programming = [
-  { language: "Java", percent: "100" },
   { language: "Python", percent: "100" },
+  { language: "Java", percent: "100" },
   { language: "Swift (SwiftUI)", percent: "80" },
   { language: "MATLAB", percent: "75" },
-  { language: "JavaScript", percent: "70" },
   { language: "SQL", percent: "70" },
+  { language: "JavaScript", percent: "70" },
   { language: "HTML/CSS", percent: "60" },
   { language: "C", percent: "50" },
 ];
@@ -29,19 +29,12 @@ const tools = [
   "React",
   "Angular",
   "AngularJS",
-  "Bootstrap",
   "NodeJS",
+  "Bootstrap",
   "Figma",
   "Power BI",
   "Adobe Premiere Pro",
 ];
-
-// const topics = [
-//   "Machine Learning",
-//   "Natural Language Processing",
-//   "Statistics",
-//   "Web Scraping",
-// ];
 
 const languages = ["English", "Chinese", "Spanish"];
 
@@ -51,7 +44,7 @@ function Skills() {
       <div className="section" id="skills">
         <Container>
           <h2 className="title">Skills</h2>
-          <p>Relative to Java and Python</p>
+          <p>Relative to Python and Java</p>
           <div>
             <Row>
               {programming.map((obj, i) => (
@@ -72,11 +65,6 @@ function Skills() {
                     {tool}
                   </Badge>
                 ))}
-                {/* {topics.map((topic, i) => (
-                  <Badge color="primary" key={i} className="mr-1">
-                    {topic}
-                  </Badge>
-                ))} */}
                 {languages.map((language, i) => (
                   <Badge color="default" key={i} className="mr-1">
                     {language}

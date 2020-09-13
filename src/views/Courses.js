@@ -26,7 +26,10 @@ const titles = [
 
 const courses = {
   thisFall: [
-    "To be determined...",
+    "CSCI 1470 Deep Learning",
+    "CSCI 2952K Topics in 3D Computer Vision and Deep Learning",
+    "APMA 1690 Computational Probability and Statistics",
+    "ENGN 1931J Social Impact of Emerging Technologies",
   ],
   computerScience: [
     "CSCI 1951A Data Science",
