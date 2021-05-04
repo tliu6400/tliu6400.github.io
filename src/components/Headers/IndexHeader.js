@@ -1,9 +1,9 @@
 /*eslint-disable*/
 import React from "react";
+import resume from "../../assets/pdf/resume.pdf";
 
 // reactstrap components
 import { Container } from "reactstrap";
-// core components
 
 function IndexHeader() {
   let pageHeader = React.createRef();
@@ -25,16 +25,35 @@ function IndexHeader() {
   return (
     <>
       <div className="page-header clear-filter" filter-color="blue">
-        <div
-          ref={pageHeader}
-        ></div>
+        <div ref={pageHeader}></div>
         <Container>
           <div className="content-center brand">
             <h1 className="h1-seo">Tom Liu</h1>
             <h6>Applied Mathematics + Computer Science</h6>
             <h6>@ Brown University</h6>
-            <a style={{color: "white"}} href="https://www.linkedin.com/in/tomliu64/" target="_blank"><i className="fab fa-linkedin fa-2x" style={{padding: "12px"}}></i></a>
-            <a style={{color: "white"}} href="https://github.com/tliu6400" target="_blank"><i className="fab fa-github fa-2x" style={{padding: "12px"}}></i></a>
+            <a
+              style={{ color: "white" }}
+              href="https://www.linkedin.com/in/tomliu64/"
+              target="_blank"
+            >
+              <i
+                className="fab fa-linkedin fa-2x"
+                style={{ padding: "12px" }}
+              ></i>
+            </a>
+            <a
+              style={{ color: "white" }}
+              href="https://github.com/tliu6400"
+              target="_blank"
+            >
+              <i
+                className="fab fa-github fa-2x"
+                style={{ padding: "12px" }}
+              ></i>
+            </a>
+            <a style={{ color: "white" }} href={resume} target="_blank">
+              <i className="far fa-file fa-2x" style={{ padding: "12px" }}></i>
+            </a>
           </div>
         </Container>
       </div>
