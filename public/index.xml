@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>tom.liu</title>
+      <link>https://tom-liu.com</link>
+      <description>Last 10 notes on tom.liu</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Reinforcement learning and hyperparameters</title>
+    <link>https://tom-liu.com/musings/Reinforcement-learning-and-hyperparameters</link>
+    <guid>https://tom-liu.com/musings/Reinforcement-learning-and-hyperparameters</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Rockstars and superstars</title>
+    <link>https://tom-liu.com/musings/Rockstars-and-superstars</link>
+    <guid>https://tom-liu.com/musings/Rockstars-and-superstars</guid>
+    <description><![CDATA[ I think this is a concept that I first read about in Radical Candor. It’s the idea that Rockstars and Superstars are two distinct personas. ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Balancing multi reward runs is short-sighted</title>
+    <link>https://tom-liu.com/musings/Balancing-multi-reward-runs-is-short-sighted</link>
+    <guid>https://tom-liu.com/musings/Balancing-multi-reward-runs-is-short-sighted</guid>
+    <description><![CDATA[ Model merging seems more principled. ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Building research infrastructure</title>
+    <link>https://tom-liu.com/musings/Building-research-infrastructure</link>
+    <guid>https://tom-liu.com/musings/Building-research-infrastructure</guid>
+    <description><![CDATA[  Food for thought humer media-pipeline dataset API . ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Cascading systems vs SpeechLLMs</title>
+    <link>https://tom-liu.com/musings/Cascading-systems-vs-SpeechLLMs</link>
+    <guid>https://tom-liu.com/musings/Cascading-systems-vs-SpeechLLMs</guid>
+    <description><![CDATA[  If you have perfect data for every scenario (ex: two people talking to assistant), doesn’t matter what approach you do Everything in practice is conditioned on having incomplete data SpeechLLMs give you a “text handle” on everything if you pretrain on enough text-audio data, so you have hope for “g... ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Enough &quot;good&quot; data solves everything</title>
+    <link>https://tom-liu.com/musings/Enough-%22good%22-data-solves-everything</link>
+    <guid>https://tom-liu.com/musings/Enough-%22good%22-data-solves-everything</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Landscape of AI companies as of August 2025</title>
+    <link>https://tom-liu.com/musings/Landscape-of-AI-companies-as-of-August-2025</link>
+    <guid>https://tom-liu.com/musings/Landscape-of-AI-companies-as-of-August-2025</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Looking at production data</title>
+    <link>https://tom-liu.com/musings/Looking-at-production-data</link>
+    <guid>https://tom-liu.com/musings/Looking-at-production-data</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Measuring what&#039;s actually important</title>
+    <link>https://tom-liu.com/musings/Measuring-what's-actually-important</link>
+    <guid>https://tom-liu.com/musings/Measuring-what's-actually-important</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item><item>
+    <title>Multiple rewards vs model merging</title>
+    <link>https://tom-liu.com/musings/Multiple-rewards-vs-model-merging</link>
+    <guid>https://tom-liu.com/musings/Multiple-rewards-vs-model-merging</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 14 Aug 2025 04:19:41 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
